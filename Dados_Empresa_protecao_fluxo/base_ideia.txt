@@ -1,0 +1,24 @@
+ideia:
+o empreendedor quer ter uma análise do fluxo de caixa dele, com as seguintes questões: 
+1 - total de entrada no mês / 2 - total de saída no mÊs/ 3 - entradas por dia do mês (gráfico de linha) / 4 - saída por dia do mês (gráfico de linha/ 5 - junção do item 3 e 4)
+e ele quer isso sendo enviado por email a cada dia
+
+Dados usados: excel que é alimentado pelo financeiro todos os dias no sheets, porém por questões de compliance ele quer uma senha padrão (que vem de outro sheets) para que ele possa ter o controle e proteção disso
+outro pedido foi que a questão da análise dependendo da senha, os dados enviados vão mudar, ou seja, se ele quiser que os seus gerentes (manager) recebam somente o total de entrada/ saida por mês, os betas são seus funcionário que entraram recentemente na empresa vão ver somente o total de entrada
+e por fim, ele pode ver tudo
+
+
+rumo de ação:
+1. fazer conexão com o sheets
+1.1 - Criar sheets com dados ficticios do fluxo
+1.2 0 criar sheets com dados de usuario e senha
+
+2 - pedir o usuario e senha do usuario
+2.1 estando certo o usuario e senha, dependendo do usuario digitado ele terá um menu diferente
+2.2 - criar menu com 3 chamadas:
+	Gestor:visualizar total de entrada do mês, visualizar total de saida do mês, gráfico de recebimento, gráfico de gastos, mescla dos dois e se desejar enviar info por email 
+	Admin: Total de entrada e saida por email, se desejar
+	Betas: Gráfico de recebimento
+
+3. Info sheets, colunas: (data, valor,Tipo,Categoria)
+
